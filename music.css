@@ -1,0 +1,69 @@
+.music
+{
+    background: #fff;
+    border-radius: 10px;
+
+    margin-bottom: 1rem;
+    width: 100%;
+    height: 4.5rem;
+}
+
+.music-left
+{
+    display: inline-block;
+    vertical-align: top;
+
+    width: calc(100% - 13rem);
+    height: 100%;
+}
+
+.music-right
+{
+    display: inline;
+    vertical-align: top;
+    float: right;
+
+    width: 13rem;
+    height: 100%;
+}
+
+#music-title
+{
+    font-family: "Helvetica Neue",Helvetica,Arial;
+    font-size: 1.5rem;
+    font-weight: 600;
+
+    margin: 5px 0 0 5px;
+}
+
+#music-artist
+{
+    font-family: "Helvetica Neue",Helvetica,Arial;
+    font-size: 1rem;
+    font-weight: 500;
+
+    margin: 5px 0 0 5px;
+}
+
+.music-button
+{
+    float: right;
+
+    font-size: 3rem;
+
+    margin: 0;
+
+    cursor: pointer;
+}
+
+#music-time
+{
+    background-color: #6c0eff;
+    border-color: #000;
+    border-style: solid;
+    border-width: 1px;
+
+    margin-left: 5px;
+    height: 3px;
+    width: calc(100% - 15px);
+}
